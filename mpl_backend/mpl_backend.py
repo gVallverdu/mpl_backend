@@ -20,8 +20,8 @@ __all__ = [
 
 
 def mpl_use(backend: str = "widget", verbose: bool = True):
-    """Switch matplotlib backend in a notebook environment. The backend can 
-    be "widget" or "inline". The function does nothing if the backend 
+    """Switch matplotlib backend in a notebook environment. The backend can
+    be "widget" or "inline". The function does nothing if the backend
     is already set to the requested one. All figures are properly closed
     before switching.
 
